@@ -28,7 +28,7 @@ The application follows a Retrieval-Augmented Generation (RAG) architecture:
 -   **PDF Loading**: PyMuPDF
 -   **Environment Variables**: `python-dotenv`
 
-## 📦 Setup and Installation
+## Setup and Installation
 
 Follow these steps to run the application on your local machine.
 
@@ -57,8 +57,6 @@ Install all the required Python packages from the `requirements.txt` file.
 pip install -r requirements.txt
 ```
 
-*(Note: You will need to create a `requirements.txt` file containing libraries like `streamlit`, `langchain`, `langchain-google-genai`, `langchain-chroma`, `pypdf`, `python-dotenv`, `pymupdf`)*
-
 ### 4. Set Up Your Google API Key
 
 The application requires a Google API key to function.
@@ -72,9 +70,7 @@ The application requires a Google API key to function.
 
     Replace `"YOUR_GOOGLE_API_KEY_HERE"` with your actual API key.
 
-    **⚠️ Important Security Note:** The `.env` file contains sensitive credentials. The provided `.gitignore` file should be configured to ignore this file, ensuring it is **never** committed to version control.
-
-## ▶️ How to Run the Application
+## How to Run the Application
 
 Once the setup is complete, run the following command in your terminal:
 
@@ -84,7 +80,7 @@ streamlit run app.py
 
 Your web browser will automatically open a new tab with the application running.
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 .
@@ -97,7 +93,7 @@ Your web browser will automatically open a new tab with the application running.
 └── requirements.txt    # List of Python dependencies
 ```
 
-## 🔒 Data Persistence and Session Management
+## Data Persistence and Session Management
 
 A key aspect of this application is how it handles data:
 
