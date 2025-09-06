@@ -10,6 +10,11 @@ This project is a web-based Question & Answering application that allows users t
 -   **Isolated Sessions**: Each user session is independent. One user's uploaded document will not be accessible or used in another user's session.
 -   **Powered by Google Gemini**: Leverages Google's powerful embedding and generative models for state-of-the-art performance.
 
+## Demo
+
+![Chatbot Demo](demo1.png)
+![Chatbot Demo](demo2.png)
+
 ## How It Works
 
 The application follows a Retrieval-Augmented Generation (RAG) architecture:
